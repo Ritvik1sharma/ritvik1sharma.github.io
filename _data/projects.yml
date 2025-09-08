@@ -1,0 +1,60 @@
+cs224w:
+  title:
+  abstract:
+  pdf:
+  url: 
+  authors:
+    - 
+    - hsu
+  date: 
+
+aa222:
+  title: 
+  date: 
+
+
+cs229:
+  title: Interpretable & Actionable Models using Attribute & Uncertainty Information
+  abstract: "<p>
+    Deep-learning models can be difficult to understand and
+    control intuitively due to the black-box nature of these models.
+    However, such lack of interpretability and human actionability
+    in the models’ decision processes make it difficult
+    to trust these models in critical applications that affect
+    the lives of people. We propose to alleviate these problems
+    through the use of attribute and uncertainty models
+    in deep networks. Our contributions are showing that attribute
+    models can improve the interpretability of models
+    in a direct and causal manner, as opposed to post-hoc explanations.
+    The models do not compromise and sometimes
+    even improve performance on the CUB and OAI datasets.
+    We show how users can have better control of our models
+    through a test-time intervention procedure where they
+    can make contributions to intermediate model outputs (attributes)
+    and improve overall target performance. Finally,
+    we show the usefulness of understanding uncertainty on attributes
+    to enable users to achieve better intervention.
+    </p>"
+  pdf: /projects/cs229-final-report.pdf
+  poster: /projects/cs229-final-poster.pdf
+  authors: 
+    - ytang
+    - muy
+    - hsu
+  date: Autumn 2019
+
+
+
+stac:
+  title: Space Technologies at Cal (STAC)
+  abstract: "<p>
+    
+    "
+  url:
+  role: Co-President and Co-Founder
+  date: 
+
+cs151:
+  title:
+
+

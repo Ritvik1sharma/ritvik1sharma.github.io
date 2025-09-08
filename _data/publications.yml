@@ -1,0 +1,895 @@
+icml2025:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "to appear in International Conference on Machine Learning (ICML)"
+  year: 2025
+  month: July
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  bibtex: "@inproceedings{zhang2025adaptive,
+    <br>  title={Adaptive Self-improvement {LLM} Agentic System for {ML} Library Development},
+    <br>  author={Genghan Zhang and Weixin Liang and Olivia Hsu and Kunle Olukotun},
+    <br>  booktitle={Forty-second International Conference on Machine Learning},
+    <br>  year={2025},
+    <br>  url={https://openreview.net/forum?id=gdsZ3uMPsY}
+    <br>  }"
+
+ieeemicro2025: 
+  title: "Designing Programmable Accelerators for Sparse Tensor Algebra"
+  abstract: "<p>
+    Recent research has focused on leveraging sparsity in hardware
+    accelerators to improve the efficiency of applications spanning scientific
+    computing to machine learning. Most such prior accelerators are fixed-function,
+    which is insufficient for two reasons. First, applications typically include
+    both dense and sparse components, and second, the algorithms that comprise
+    these applications are constantly evolving. To address these challenges, we
+    designed a programmable accelerator called Onyx for both sparse tensor algebra
+    and dense workloads. Onyx extends a coarse-grained reconfigurable array (CGRA)
+    optimized for dense applications with composable hardware primitives to support
+    arbitrary sparse tensor algebra kernels. In this article, we show that we can
+    further optimize Onyx by adding a small set of hardware features for
+    parallelization that significantly increase both temporal and spatial
+    utilization of the CGRA, reducing runtime by up to 6.2×.
+    </p>"
+  venue: "IEEE Micro" 
+  year: 2025
+  month: May 
+  url: "https://ieeexplore.ieee.org/document/10947596"
+  pdf: /publications/ieeemicro2025-submit-version.pdf
+  articlenote: The above PDF is the author-submitted version of the article. The final published version can be found at the Article URL above.
+  authors:
+    - koul
+    - xie
+    - strange
+    - ravipatigautham
+    - chengbowun
+    - hsu
+    - chen
+    - horowitz
+    - kjolstad
+    - raina 
+  bibtex: "@ARTICLE{10947596,
+    <br>  author={Koul, Kalhan and Xie, Zhouhua and Strange, Maxwell and Ravipati, Sai
+    <br>  Gautham and Cheng, Bo Wun and Hsu, Olivia and Chen, Po-Han and Horowitz, Mark
+    <br>  and Kjolstad, Fredrik and Raina, Priyanka},
+    <br>  journal={IEEE Micro}, 
+    <br>  title={Designing Programmable Accelerators for Sparse Tensor Algebra}, 
+    <br>  year={2025},
+    <br>  volume={45},
+    <br>  number={3},
+    <br>  pages={58-65},
+    <br>  keywords={Tensors;Pipeline processing;Algebra;Micromechanical
+    <br>  devices;Repeaters;Random access memory;Kernel;Arrays;Sparse matrices;Process
+    <br>  control},
+    <br>  doi={10.1109/MM.2025.3556611}}"
+  
+iclr2025llm:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "International Conference on Learning Representations (ICLR) Workshop on Reasoning and Planning for LLMs"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  
+iclr2025dl4c:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "Deep Learning for Code (DL4C) Workshop at International Conference on Learning Representations (ICLR)"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  award: "Spotlight: Best Paper Award"
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+
+cgo2025: 
+  title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"
+  abstract: "<p>
+    We introduce Stardust, a compiler from sparse tensor algebra languages to a
+    sparse reconfigurable dataflow architecture via a parallel-patterns programming
+    model. Stardust lets performance engineers specify the placement of data into
+    memories separately from the placement of computation onto compute units. Users
+    first schedule data placement onto an abstract memory model, and then Stardust
+    binds that data to complex, on-chip physical memories. With guidance from user
+    schedules, Stardust binds computation using these on-chip data structures to
+    the appropriate parallel patterns. Through cycle-accurate simulation, we show
+    that Stardust generates nine more tensor algebra kernels than the original
+    Capstan sparse RDA work. The generated kernels perform, on average,
+    138x better than generated CPU kernels and 41x better
+    than generated GPU kernels.
+    </p>"
+  venue: "International Symposium on Code Generation and Optimization (CGO)"
+  year: 2025
+  month: March
+  pdf: /publications/cgo2025-stardust.pdf
+  authors: 
+    - hsu
+    - rucker
+    - zhao
+    - desai
+    - olukotun
+    - kjolstad
+  bibtex: "@inproceedings{hsu2025stardust,
+    <br>  author = {Hsu, Olivia and Rucker, Alexander and Zhao, Tian and Desai,
+    <br>  Varun and Olukotun, Kunle and Kjolstad, Fredrik},
+    <br>  title = {Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture},
+    <br>  year = {2025},
+    <br>  isbn = {9798400712753},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  url = {https://doi.org/10.1145/3696443.3708918},
+    <br>  doi = {10.1145/3696443.3708918},
+    <br>  abstract = {We introduce Stardust, a compiler from sparse tensor algebra
+    <br>  languages to a sparse reconfigurable dataflow architecture via a
+    <br>  parallel-patterns programming model. Stardust lets performance engineers
+    <br>  specify the placement of data into memories separately from the placement of
+    <br>  computation onto compute units. Users first schedule data placement onto an
+    <br>  abstract memory model, and then Stardust binds that data to complex, on-chip
+    <br>  physical memories. With guidance from user schedules, Stardust binds
+    <br>  computation using these on-chip data structures to the appropriate parallel
+    <br>  patterns. Through cycle-accurate simulation, we show that Stardust generates
+    <br>  nine more tensor algebra kernels than the original Capstan sparse RDA work. The
+    <br>  generated kernels perform, on average, 138x better than generated
+    <br>  CPU kernels and 41x better than generated GPU kernels.},
+    <br>  booktitle = {Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization},
+    <br>  pages = {628–643},
+    <br>  numpages = {16},
+    <br>  keywords = {DSLs, compilers, dataflow, parallel patterns, reconfigurable architectures, sparse tensor algebra},
+    <br>  location = {Las Vegas, NV, USA},
+    <br>  series = {CGO '25}
+    <br>  } "
+
+hotchips2024:
+  title: "Onyx: A Programmable Accelerator for Sparse Tensor Algebra"
+  year: 2024
+  month: August
+  venue: IEEE Hot Chips Symposium (Hot Chips)
+  authors: 
+    - koul
+    - strange
+    - melchert
+    - carsello
+    - mei
+    - hsu
+    - kong
+    - chen
+    - ke
+    - zhangkeyi
+    - liu
+    - nyengele
+    - balasingam
+    - adivarahan 
+    - sharma
+    - xie
+    - torng
+    - emer
+    - kjolstad
+    - horowitz
+    - raina
+
+pldi2024:
+  title: "Compilation of Modular and General Sparse Workspaces"
+  abstract: "<p>
+    Recent years have seen considerable work on compiling sparse tensor algebra
+    expressions. This paper addresses a shortcoming in that work, namely how to
+    generate efficient code (in time and space) that scatters values into a sparse
+    result tensor. We address this shortcoming through a compiler design that
+    generates code that uses sparse intermediate tensors (sparse workspaces) as
+    efficient adapters between compute code that scatters and result tensors that
+    do not support random insertion.  Our compiler automatically detects sparse
+    scattering behavior in tensor expressions and inserts necessary intermediate
+    workspace tensors. We present an algorithm template for workspace insertion
+    that is the backbone of our code generation algorithm. Our algorithm template
+    is modular by design, supporting sparse workspaces that span multiple
+    user-defined implementations.  Our evaluation shows that sparse workspaces can
+    be up to 27.12x faster than the dense workspaces of prior work. On the
+    other hand, dense workspaces can be up to 7.58x faster than the sparse
+    workspaces generated by our compiler in other situations, which motivates our
+    compiler design that supports both. Our compiler produces sequential code that
+    is competitive with hand-optimized linear and tensor algebra libraries on the
+    expressions they support, but that generalizes to any other expression. Sparse
+    workspaces are also more memory efficient than dense workspaces as they
+    compress away zeros. This compression can asymptotically decrease memory usage,
+    enabling tensor computations on data that would otherwise run out of memory.
+    </p>"
+  venue: "Conference on Programming Language Design and Implementation (PLDI)" 
+  year: 2024
+  month: June
+  pdf: /publications/pldi2024.pdf
+  authors:
+    - zhanggenghan
+    - hsu
+    - kjolstad
+  bibtex: "@article{10.1145/3656426,
+    <br>  author = {Zhang, Genghan and Hsu, Olivia and Kjolstad, Fredrik},
+    <br>  title = {Compilation of Modular and General Sparse Workspaces},
+    <br>  year = {2024},
+    <br>  issue_date = {June 2024},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  volume = {8},
+    <br>  number = {PLDI},
+    <br>  url = {https://doi.org./10.1145/3656426},
+    <br>  doi = {10.1145/3656426},
+    <br>  abstract = {Recent years have seen considerable work on compiling sparse
+    <br>  tensor algebra expressions. This paper addresses a shortcoming in that work,
+    <br>  namely how to generate efficient code (in time and space) that scatters values
+    <br>  into a sparse result tensor. We address this shortcoming through a compiler
+    <br>  design that generates code that uses sparse intermediate tensors (sparse
+    <br>  workspaces) as efficient adapters between compute code that scatters and result
+    <br>  tensors that do not support random insertion. Our compiler automatically
+    <br>  detects sparse scattering behavior in tensor expressions and inserts necessary
+    <br>  intermediate workspace tensors. We present an algorithm template for workspace
+    <br>  insertion that is the backbone of our code generation algorithm. Our algorithm
+    <br>  template is modular by design, supporting sparse workspaces that span multiple
+    <br>  user-defined implementations. Our evaluation shows that sparse workspaces can
+    <br>  be up to 27.12\texttimes{} faster than the dense workspaces of prior work. On
+    <br>  the other hand, dense workspaces can be up to 7.58\texttimes{} faster than the
+    <br>  sparse workspaces generated by our compiler in other situations, which
+    <br>  motivates our compiler design that supports both. Our compiler produces
+    <br>  sequential code that is competitive with hand-optimized linear and tensor
+    <br>  algebra libraries on the expressions they support, but that generalizes to any
+    <br>  other expression. Sparse workspaces are also more memory efficient than dense
+    <br>  workspaces as they compress away zeros. This compression can asymptotically
+    <br>  decrease memory usage, enabling tensor computations on data that would
+    <br>  otherwise run out of memory.},
+    <br>  journal = {Proc. ACM Program. Lang.},
+    <br>  month = {jun},
+    <br>  articleno = {196},
+    <br>  numpages = {26},
+    <br>  keywords = {code composition, compilation, sparse tensor algebra, sparse workspaces}
+    <br>  }"
+  movie: https://www.youtube.com/watch?v=bkovjLkg8yI&ab_channel=ACMSIGPLAN
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/bkovjLkg8yI?si=zvYw1s6otCidWiqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+vlsi2024:
+  title: "Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications" 
+  venue: "IEEE Symposium on VLSI Technology & Circuits (VLSI)"
+  abstract: "<p>
+    Onyx is the first fully programmable accelerator for
+    arbitrary sparse tensor algebra kernels. Unlike prior work, it
+    supports higher-order tensors, multiple inputs, and fusion. It
+    achieves this with a coarse-grained reconfigurable array
+    (CGRA) that has composable memory primitives for storing
+    compressed any-order tensors and compute primitives that
+    eliminate ineffectual computations in sparse expressions.
+    Further, Onyx improves dense image processing and machine
+    learning (ML) with application-specialized compute tiles,
+    memory tiles optimized for affine access patterns, and hybrid
+    clock gating in the global buffer. We achieve up to 565x better
+    energy-delay product (EDP) for sparse kernels vs. CPUs with
+    sparse libraries, and up to 76% and 85% lower EDP for image
+    processing and ML, respectively, vs. Amber [1].
+    </p>"
+  year: 2024
+  month: June
+  url: "https://ieeexplore.ieee.org/document/10631383"
+  pdf: /publications/vlsi2024-submit-version.pdf 
+  articlenote: The above PDF is the author-submitted version of the article. The final published version can be found at the Article URL above.
+  authors: 
+    - koul
+    - strange
+    - melchert
+    - carsello
+    - mei
+    - hsu
+    - kong
+    - chen
+    - ke
+    - zhangkeyi
+    - liu
+    - nyengele
+    - balasingam
+    - adivarahan 
+    - sharma
+    - xie
+    - torng
+    - emer
+    - kjolstad
+    - horowitz
+    - raina
+  bibtex: "@INPROCEEDINGS{10631383,
+    <br>  author={Koul, Kalhan and Strange, Maxwell and Melchert, Jackson and Carsello,
+    <br>  Alex and Mei, Yuchen and Hsu, Olivia and Kong, Taeyoung and Chen, Po-Han and
+    <br>  Ke, Huifeng and Zhang, Keyi and Liu, Qiaoyi and Nyengele, Gedeon and
+    <br>  Balasingam, Akhilesh and Adivarahan, Jayashree and Sharma, Ritvik and Xie,
+    <br>  Zhouhua and Torng, Christopher and Emer, Joel and Kjolstad, Fredrik and
+    <br>  Horowitz, Mark and Raina, Priyanka},
+    <br>  booktitle={2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)}, 
+    <br>  title={Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications}, 
+    <br>  year={2024},
+    <br>  volume={},
+    <br>  number={},
+    <br>  pages={1-2},
+    <br>  keywords={Tensors;Image coding;Algebra;Machine learning;Very large scale integration;Libraries;Kernel},
+    <br>  doi={10.1109/VLSITechnologyandCir46783.2024.10631383}
+    <br>  }"
+
+asplos2024:
+  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
+  abstract: "<p>
+    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
+    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
+    provides the flexibility needed to handle the requirements of modern autotuning
+    tasks. Particularly, it deals with permutation, ordered, and continuous
+    parameter types along with both known and unknown parameter constraints. To
+    reason about these parameter types and efficiently deliver high-quality code,
+    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
+    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
+    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
+    these domains, BaCO outperforms current state-of-the-art autotuners by
+    delivering on average 1.36x-1.56x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.9x-3.9x faster.
+    </p>"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2024
+  month: April
+  url: "https://dl.acm.org/doi/10.1145/3623278.3624770" 
+  pdf: /publications/asplos2024-baco.pdf
+  authors:
+    - hellsten
+    - souza
+    - lenfers
+    - lacouture
+    - hsu
+    - ejjeh
+    - kjolstad
+    - steuwer
+    - olukotun
+    - nardi
+  bibtex:  "  @inproceedings{10.1145/3623278.3624770,
+    <br>  author = {Hellsten, Erik Orm and Souza, Artur and Lenfers, Johannes and
+    <br>  Lacouture, Rubens and Hsu, Olivia and Ejjeh, Adel and Kjolstad, Fredrik and
+    <br>  Steuwer, Michel and Olukotun, Kunle and Nardi, Luigi},
+    <br>  title = {BaCO: A Fast and Portable Bayesian Compiler Optimization Framework},
+    <br>  year = {2024},
+    <br>  isbn = {9798400703942},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  url = {https://doi.org/10.1145/3623278.3624770},
+    <br>  doi = {10.1145/3623278.3624770},
+    <br>  abstract = {We introduce the Bayesian Compiler Optimization framework (BaCO), a
+    <br>  general purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs.
+    <br>  BaCO provides the flexibility needed to handle the requirements of modern
+    <br>  autotuning tasks. Particularly, it deals with permutation, ordered, and
+    <br>  continuous parameter types along with both known and unknown parameter
+    <br>  constraints. To reason about these parameter types and efficiently deliver
+    <br>  high-quality code, BaCO uses Bayesian optimization algorithms specialized
+    <br>  towards the autotuning domain. We demonstrate BaCO's effectiveness on three
+    <br>  modern compiler systems: TACO, RISE \\& ELEVATE, and HPVM2FPGA for CPUs, GPUs,
+    <br>  and FPGAs respectively. For these domains, BaCO outperforms current
+    <br>  state-of-the-art auto-tuners by delivering on average 1.36X--1.56X faster code
+    <br>  with a tiny search budget, and BaCO is able to reach expert-level performance
+    <br>  2.9X--3.9X faster.},
+    <br>  booktitle = {Proceedings of the 28th ACM International Conference on
+    <br>  Architectural Support for Programming Languages and Operating Systems, Volume
+    <br>  4},
+    <br>  pages = {19–42},
+    <br>  numpages = {24},
+    <br>  keywords = {compiler optimizations, high-performance computing,
+    <br>  bayesian optimization, autotuning, autoscheduling},
+    <br>  location = {Vancouver, BC, Canada},
+    <br>  series = {ASPLOS '23}
+    <br>  }"
+
+pldi2023:
+  title: "Mosaic: An Interoperable Compiler for Tensor Algebra"
+  abstract: "<p>
+    We introduce Mosaic, a sparse tensor algebra compiler that can bind tensor
+    (sub-)expressions to external functions of other tensor algebra libraries or
+    compilers. Users can extend Mosaic by adding new functions and can bind a
+    sub-computation to a function using a scheduling API. Mosaic substitutes the
+    bound(sub-)expressions with the specified function call and automatically
+    fills in the rest of the unbound code using a default code generator. Mosaic
+    also has a search system that can automatically map an expression to a set of
+    registered external functions. Both the explicit binding and automatic search
+    are verified by Mosaic. We demonstrate the benefits of our approach by
+    showing that calling hand-written CPU and specialized hardware functions can
+    provide speedup of up to 206x and 173x, respectively, over a homogeneous
+    compiler. Mosaic’s external function interface is simple and general.
+    Currently, 38 external functions have been added to Mosaic, with each
+    addition averaging 20 lines of C++ code.
+  </p>" 
+  venue: "Proceedings of the ACM on Programming Languages"
+  issue: PLDI
+  volume: 7
+  pdf: /publications/pldi2023-mosaic.pdf
+  year: 2023
+  month: June
+  award: "Distinguished Paper Award"
+  pdf: /publications/pldi2023.pdf
+  authors:
+    - bansal
+    - hsu
+    - olukotun
+    - kjolstad
+  movie: https://youtu.be/2I0DwL9uOcg?si=nmB6FMq2LTqAe0gb
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/2I0DwL9uOcg?si=nmB6FMq2LTqAe0gb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  bibtex: "
+    <br>    @article{10.1145/3591236,
+    <br>    author = {Bansal, Manya and Hsu, Olivia and Olukotun, Kunle and Kjolstad, Fredrik},
+    <br>    title = {Mosaic: An Interoperable Compiler for Tensor Algebra},
+    <br>    year = {2023},
+    <br>    issue_date = {June 2023},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    volume = {7},
+    <br>    number = {PLDI},
+    <br>    url = {https://doi.org/10.1145/3591236},
+    <br>    doi = {10.1145/3591236},
+    <br>    abstract = {We introduce Mosaic, a sparse tensor algebra compiler that can bind
+    <br>    tensor expressions to external functions of other tensor algebra libraries and
+    <br>    compilers. Users can extend Mosaic by adding new functions and bind a
+    <br>    sub-expression to a function using a scheduling API. Mosaic substitutes the
+    <br>    bound sub-expressions with calls to the external functions and automatically
+    <br>    generates the remaining code using a default code generator. As the generated
+    <br>    code is fused by default, users can productively leverage both fusion and calls
+    <br>    to specialized functions within the same compiler. We demonstrate the benefits
+    <br>    of our dual approach by showing that calling hand-written CPU and specialized
+    <br>    hardware functions can provide speedups of up to 206x against fused
+    <br>    code in some cases, while generating fused code can provide speedups of up to
+    <br>    3.57x against code that calls external functions in other cases.
+    <br>    Mosaic also offers a search system that can automatically map an expression to
+    <br>    a set of registered external functions. Both the explicit binding and automatic
+    <br>    search are verified by Mosaic. Additionally, the interface for adding new
+    <br>    external functions is simple and general. Currently, 38 external functions have
+    <br>    been added to Mosaic, with each addition averaging 20 lines of code.},
+    <br>    journal = {Proc. ACM Program. Lang.},
+    <br>    month = {jun},
+    <br>    articleno = {122},
+    <br>    numpages = {26},
+    <br>    keywords = {sparse tensor algebra, compilation, external functions, automated search}
+    }"
+
+plarch2023:
+  title: "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow"
+  venue: "Workshop on Programming Languages and Architecture (PLARCH) co-located with FCRC/ISCA/PLDI 2023"
+  abstract: "<p>
+    This paper details the problem landscape that arises from using a general
+    tensor algebra accelerator framework to compute real-world end-to-end machine
+    learning applications. We identify three key challenges for correctness and
+    performance, which include support for tensor reshaping and nonlinear
+    operations, dataflow optimization (kernel fusion, optimal dataflow order), and
+    leveraging sparsity structure. This paper motivates the need to address these
+    problems in the domain-specific language, compiler framework, and architectural
+    design for sparse machine learning. We extended a general tensor algebra
+    compiler and architectural model, the Sparse Abstract Machine, to real-world
+    sparse machine learning models in order to identify the key challenges above. 
+    <p>"
+  year: 2023
+  month: June
+  pdf: /publications/plarch2023.pdf
+  authors:
+    - lacouture
+    - hsu
+    - olukotun
+    - kjolstad
+  movie: https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/eiYtlmeSGCY?si=YqMqNgUv3CoNKoM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+asplos2023: 
+  title: The Sparse Abstract Machine
+  abstract: "<p>
+    We propose the Sparse Abstract Machine (SAM), an abstract machine model for
+    targeting sparse tensor algebra to reconfigurable and fixed-function spatial
+    dataflow accelerators. SAM defines a streaming dataflow abstraction with sparse
+    primitives that encompass a large space of scheduled tensor algebra
+    expressions. SAM dataflow graphs naturally separate tensor formats from
+    algorithms and are expressive enough to incorporate arbitrary iteration
+    orderings and many hardware-specific optimizations. We also present Custard, a
+    compiler from a high-level language to SAM that demonstrates SAM's usefulness
+    as an intermediate representation. We automatically bind from SAM to a
+    streaming dataflow simulator. We evaluate the generality and extensibility of
+    SAM, explore the performance space of sparse tensor algebra optimizations using
+    SAM, and show SAM's ability to represent dataflow hardware.
+</p>"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2023
+  pdf: /publications/asplos2023-sam.pdf
+  month: March
+  authors: 
+    - hsu
+    - strange
+    - sharma
+    - won
+    - olukotun
+    - emer
+    - horowitz
+    - kjolstad
+  bibtex: "@inproceedings{hsu2023asplos,
+    <br>    author = {Hsu, Olivia and Strange, Maxwell and Sharma, Ritvik and
+    <br>    Won, Jaeyeon and Olukotun, Kunle and Emer, Joel S. and Horowitz, Mark A. and
+    <br>    Kj\\o{}lstad, Fredrik},
+    <br>    title = {The Sparse Abstract Machine},
+    <br>    year = {2023},
+    <br>    isbn = {9781450399180},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    url = {https://doi.org/10.1145/3582016.3582051},
+    <br>    doi = {10.1145/3582016.3582051},
+    <br>    abstract = {We propose the Sparse Abstract Machine (SAM), an abstract machine
+    <br>    model for targeting sparse tensor algebra to reconfigurable and fixed-function
+    <br>    spatial dataflow accelerators. SAM defines a streaming dataflow abstraction
+    <br>    with sparse primitives that encompass a large space of scheduled tensor algebra
+    <br>    expressions. SAM dataflow graphs naturally separate tensor formats from
+    <br>    algorithms and are expressive enough to incorporate arbitrary iteration
+    <br>    orderings and many hardware-specific optimizations. We also present Custard, a
+    <br>    compiler from a high-level language to SAM that demonstrates SAM's usefulness
+    <br>    as an intermediate representation. We automatically bind from SAM to a
+    <br>    streaming dataflow simulator. We evaluate the generality and extensibility of
+    <br>    SAM, explore the performance space of sparse tensor algebra optimizations using
+    <br>    SAM, and show SAM's ability to represent dataflow hardware.},
+    <br>    booktitle = {Proceedings of the 28th ACM International Conference
+    <br>    on Architectural Support for Programming Languages and Operating Systems,
+    <br>    Volume 3},
+    <br>    pages = {710–726},
+    <br>    numpages = {17},
+    <br>    keywords = {domain-specific, streams, abstract machine, sparse tensor algebra},
+    <br>    location = {Vancouver, BC, Canada},
+    <br>    series = {ASPLOS 2023}
+    }"
+  movie: https://www.youtube.com/watch?v=zCzZKWheizE
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/zCzZKWheizE?si=yE869mNtf5SHBWLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+latte2023:
+  title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
+  venue: "Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS 2023"
+  abstract: "<p>
+    This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
+    describe how we built a reconfigurable dataflow accelerator
+    for sparse tensor algebra, a relatively complex domain, using
+    the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
+    lead to a slew of benefits, including computational generality within the application domain, easier verification and
+    debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
+    generation. These benefits allowed us to build the accelerator
+    within a short time-frame with only two designers.
+    <p>"
+  year: 2023
+  pdf: /publications/latte2023-sparse-cgra.pdf
+  month: March
+  authors:
+    - hsu
+    - strange
+    - olukotun
+    - horowitz
+    - kjolstad
+  movie: https://youtu.be/0rBjQG8z7Dc
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/0rBjQG8z7Dc?si=iqzXVC5Y5UEI21Iv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+sigcse2023:
+  title: Inclusive study group formation at scale
+  abstract: "<p>
+    Underrepresented students face many significant challenges in their
+    education. In particular, they often have a harder time than their peers from
+    majority groups in building long-term high-quality study groups. This
+    challenge is exacerbated in remote-learning scenarios, where students are
+    unable to meet face-to-face and must rely on pre-existing networks for social
+    support.
+  
+    We present a scalable system that removes structural obstacles faced by
+    underrepresented students and supports all students in building inclusive and
+    flexible study groups. One of our main goals is to make the usually informal
+    and unstructured process of finding study groups for homework more equitable by
+    providing a uniform but lightweight structure. We aim to provide students from
+    underrepresented groups an experience that is similar in quality to that of
+    students from majority groups. Our process is unique in that it allows students
+    the opportunity to request group reassignments during the semester if they
+    wish. Unlike other collaboration tools our system is not mandatory and does not
+    use peer-evaluation.
+    
+    We trialed our approach in a 1000+ student introductory Engineering and
+    Computer Science course that was conducted entirely online during the COVID-19
+    pandemic. We find that students from underrepresented backgrounds were more
+    likely to ask for group-matching support compared to students from majority
+    groups. At the same time, underrepresented students that we matched into study
+    groups had group experiences that were comparable to students we matched from
+    majority groups. B-range students in high-comfort and high-activity groups had
+    improved learning outcomes.
+    </p>"
+  venue: "Special Interest Group Computer Science Education Technical Symposium (SIGCSE TS)"
+  year: 2023
+  month: March
+  pdf: /publications/sigcse23-study-group.pdf
+  authors: 
+    - kohli
+    - ramachandran
+    - tudor
+    - tumushabe
+    - hsu
+    - ranade
+  bibtex: "
+    @inproceedings{kohli2023sigcse,
+    <br>    author = {Kohli, Sumer and Ramachandran, Neelesh and Tudor, Ana and
+    <br>    Tumushabe, Gloria and Hsu, Olivia and Ranade, Gireeja},
+    <br>    title = {Inclusive Study Group Formation at Scale},
+    <br>    year = {2023},
+    <br>    isbn = {9781450394314},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    url = {https://doi.org/10.1145/3545945.3569885},
+    <br>    doi = {10.1145/3545945.3569885},
+    <br>    abstract = {Underrepresented students face many significant challenges in
+    <br>    their education. In particular, they often have a harder time than their peers
+    <br>    from majority groups in building long-term high-quality study groups. This
+    <br>    challenge is exacerbated in remote-learning scenarios, where students are
+    <br>    unable to meet face-to-face and must rely on pre-existing networks for social
+    <br>    support.We present a scalable system that removes structural obstacles faced by
+    <br>    underrepresented students and supports all students in building inclusive and
+    <br>    flexible study groups. One of our main goals is to make the traditionally
+    <br>    informal and unstructured process of finding study groups for homework more
+    <br>    equitable by providing a uniform but lightweight structure. We aim to provide
+    <br>    students from underrepresented groups an experience that is similar in quality
+    <br>    to that of students from majority groups. Our process is unique in that it
+    <br>    allows students the opportunity to request group reassignments during the
+    <br>    semester if they wish. Unlike other collaboration tools our system is not
+    <br>    mandatory and does not use peer-evaluation.We trialed our approach in a 1000+
+    <br>    student introductory Engineering and Computer Science course that was conducted
+    <br>    entirely online during the COVID-19 pandemic. We find that students from
+    <br>    underrepresented backgrounds were more likely to ask for group-matching support
+    <br>    compared to students from majority groups. At the same time, underrepresented
+    <br>    students that we matched into study groups had group experiences that were
+    <br>    comparable to students we matched from majority groups. B-range students in
+    <br>    high-comfort and high-quality groups had improved learning outcomes.},
+    <br>    booktitle = {Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1},
+    <br>    pages = {11–17},
+    <br>    numpages = {7},
+    <br>    keywords = {remote learning, group formation, study groups, education},
+    <br>    location = {Toronto ON, Canada},
+    <br>    series = {SIGCSE 2023}
+    }"
+
+
+oopsla2021:
+  title: "Compilation of sparse array programming models"
+  abstract: "<p>
+    This paper shows how to compile sparse array programming languages. A sparse
+    array programming language is an array programming language that supports
+    element-wise application, reduction, and broadcasting of arbitrary functions
+    over dense and sparse arrays with any fill value. Such a language has great
+    expressive power and can express sparse and dense linear and tensor algebra,
+    functions over images, exclusion and inclusion filters, and even graph
+    algorithms.
+  
+    Our compiler strategy generalizes prior work in the literature on sparse tensor
+    algebra compilation to support any function applied to sparse arrays, instead
+    of only addition and multiplication. To achieve this, we generalize the notion
+    of sparse iteration spaces beyond intersections and unions. These iteration
+    spaces are automatically derived by considering how algebraic properties
+    annotated onto functions interact with the fill values of the arrays. We then
+    show how to compile these iteration spaces to efficient code.
+    
+    When compared with two widely-used Python sparse array packages, our evaluation
+    shows that we generate built-in sparse array library features with a
+    performance of 1.4× to 53.7× when measured against PyData/Sparse for
+    user-defined functions and between 0.98× and 5.53× when measured against
+    SciPy/Sparse for sparse array slicing. Our technique outperforms PyData/Sparse
+    by 6.58× to 70.3×, and (where applicable) performs between 0.96× and 28.9× that
+    of a dense NumPy implementation, on end-to-end sparse array applications. We
+    also implement graph linear algebra kernels in our system with a performance of
+    between 0.56× and 3.50× compared to that of the hand-optimized
+    SuiteSparse:GraphBLAS library.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  year: 2021
+  issue: OOPSLA
+  volume: 5
+  month: October
+  authors:
+    - henry
+    - hsu
+    - yadav
+    - chou
+    - olukotun
+    - amarasinghe
+    - kjolstad
+  url: "https://dl.acm.org/doi/abs/10.1145/3485505"
+  pdf: /publications/oopsla2021.pdf
+  appendix: /publications/oopsla2021_appendix.pdf
+  movie: https://youtu.be/sY_jEfaP8f4 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  bibtex: "
+    @article{henry2021oopsla,
+    <br>    author = {Henry, Rawn and Hsu, Olivia and Yadav, Rohan and Chou, Stephen and Olukotun, Kunle and Amarasinghe, Saman and Kjolstad, Fredrik},
+    <br>    title = {Compilation of Sparse Array Programming Models},
+    <br>    year = {2021},
+    <br>    issue_date = {October 2021},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    volume = {5},
+    <br>    number = {OOPSLA},
+    <br>    url = {https://doi.org/10.1145/3485505},
+    <br>    doi = {10.1145/3485505},
+    <br>    abstract = {This paper shows how to compile sparse array programming languages.
+    <br>    A sparse array programming language is an array programming language that
+    <br>    supports element-wise application, reduction, and broadcasting of arbitrary
+    <br>    functions over dense and sparse arrays with any fill value. Such a language has
+    <br>    great expressive power and can express sparse and dense linear and tensor
+    <br>    algebra, functions over images, exclusion and inclusion filters, and even graph
+    <br>    algorithms. Our compiler strategy generalizes prior work in the literature on
+    <br>    sparse tensor algebra compilation to support any function applied to sparse
+    <br>    arrays, instead of only addition and multiplication. To achieve this, we
+    <br>    generalize the notion of sparse iteration spaces beyond intersections and
+    <br>    unions. These iteration spaces are automatically derived by considering how
+    <br>    algebraic properties annotated onto functions interact with the fill values of
+    <br>    the arrays. We then show how to compile these iteration spaces to efficient
+    <br>    code. When compared with two widely-used Python sparse array packages, our
+    <br>    evaluation shows that we generate built-in sparse array library features with a
+    <br>    performance of 1.4x to 53.7x when measured against
+    <br>    PyData/Sparse for user-defined functions and between 0.98x and
+    <br>    5.53x when measured against SciPy/Sparse for sparse array slicing.
+    <br>    Our technique outperforms PyData/Sparse by 6.58x to
+    <br>    70.3x, and (where applicable) performs between 0.96x and
+    <br>    28.9x that of a dense NumPy implementation, on end-to-end sparse
+    <br>    array applications. We also implement graph linear algebra kernels in our
+    <br>    system with a performance of between 0.56x and 3.50x
+    <br>    compared to that of the hand-optimized SuiteSparse:GraphBLAS library.},
+    <br>    journal = {Proc. ACM Program. Lang.},
+    <br>    month = {oct},
+    <br>    articleno = {128},
+    <br>    numpages = {29},
+    <br>    keywords = {Sparse Arrays, Sparse Array Programming, Compilation}
+    }"
+
+
+vlsi2021:
+  title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
+  abstract: "<p>
+    This paper presents the first fully integrated 2-D array of electronic-photonic ultrasound sensors targeting low-power
+    miniaturized ultrasound probes for endoscopic applications. Fabricated in a zero-change 45nm CMOS-SOI technology this
+    Electronic-Photonic System on Chip (EPSoC), utilizes micro-ring resonators (MRR) as ultrasound sensors instead of the
+    traditional piezoelectric or capacitive micromachined transducers (PMUTs or CMUTs). The photonic nature of the sensor
+    enables remoting the power-hungry receive electronics outside the probe tip, lowering the power dissipation inside the human
+    body, eliminates the electrical cabling and reduces fiber count by 4x using wavelength division multiplexed (WDM) MRR
+    sensors coupled onto the same waveguide. The photonic sensing element demonstrates >30 MHz bandwidth, 7.3 mV/kPa
+    overall sensitivity, while consuming 0.43 mW of power
+    </p>"
+  venue: "VLSI Symposium"
+  year: 2021
+  month: June
+  authors: 
+    - zarkos
+    - buchbinder
+    - adamopoulos
+    - madhvapathy 
+    - hsu
+    - whinnery
+    - bhargava 
+    - stojanovic
+  url: "https://ieeexplore.ieee.org/document/9492412"
+  bibtex: "
+    @inproceedings{zarkos2021vlsi,
+    <br>    author={Zarkos, Panagiotis and Buchbinder, Sidney and Adamopoulos,
+    <br>    Christos and Madhvapathy, Sarika and Hsu, Olivia and Whinnery, Jake and
+    <br>    Bhargava, Pavan and Stojanović, Vladimir},
+    <br>    booktitle={2021 Symposium on VLSI Circuits}, 
+    <br>    title={Fully Integrated Electronic-Photonic Ultrasound Receiver Array for
+    <br>    Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process}, 
+    <br>    year={2021},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={10.23919/VLSICircuits52068.2021.9492412}
+    }"
+
+cleo2021:
+  title: Monolithically Integrated Electronic-Photonic Ultrasound Receiver Using Microring Resonator
+  abstract: "<p>
+    The first optical ultrasound sensor with co-integrated read-out circuitry is presented. Based
+    on a micro-ring resonator (MRR), it has a measured 7.3mV/kPa sensitivity, 480Pa minimum detectable
+    pressure, operating at 80% fractional bandwidth around 5MHz.
+    </p>"
+  venue: "Conference on Lasers and Electro-Optics"
+  venuenote: "CLEO"
+  year: 2021
+  month: May
+  authors:
+    - zarkos
+    - buchbinder
+    - adamopoulos
+    - hsu
+    - madhvapathy 
+    - whinnery
+    - bhargava 
+    - stojanovic
+  pdf: /publications/cleo2021.pdf
+  bibtex: "
+    @INPROCEEDINGS{zarkos2021cleo,
+    <br>    author={Zarkos, Panagiotis and Buchbinder, Sidney and Adamopoulos, Christos and Hsu, Olivia and Madhvapathy, Sarika and Whinnery, Jake and Bhargava, Pavan and Stojanović, Vladimir},
+    <br>    booktitle={2021 Conference on Lasers and Electro-Optics (CLEO)}, 
+    <br>    title={Monolithically Integrated Electronic-Photonic Ultrasound Receiver Using Microring Resonator}, 
+    <br>    year={2021},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={}
+    }"
+
+cleo2019:
+  title: Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process
+  abstract: "<p>
+    Optical ultrasound detection using microring resonators (MRRs) in a
+    zero-change 45nm CMOS-SOI electronic-photonic platform with high intrinsic
+    sensitivity of 39.6 f m/kPa and frequency response of 6MHz is reported.
+    </p>"
+  venue: "Conference on Lasers and Electro-Optics"
+  venuenote: "CLEO"
+  issue: "JW2A.78"
+  year: 2019
+  month: May 
+  authors:
+    - zarkos
+    - hsu
+    - stojanovic
+  pdf: /publications/cleo2019.pdf
+  bibtex: "
+    @INPROCEEDINGS{zarkos2019cleo,
+    <br>    author={Zarkos, Panagiotis and Hsu, Olivia and Stojanović, Vladimir},
+    <br>    booktitle={2019 Conference on Lasers and Electro-Optics (CLEO)}, 
+    <br>    title={Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process}, 
+    <br>    year={2019},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={10.1364/CLEO_AT.2019.JW2A.78}
+    }"
+

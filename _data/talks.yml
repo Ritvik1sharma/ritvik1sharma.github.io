@@ -1,0 +1,104 @@
+job2025:
+  title: "From Language to Silicon: Programming Systems for Sparse Accelerators"
+  month: "January to April"
+  venue: "University of California, Santa Barbara
+  <br>  University of Maryland, College Park
+  <br>  Carnegie Mellon University
+  <br>  University of Wisconsin-Madison
+  <br>  Massachusetts Institute of Technology
+  <br>  University of California, Berkeley
+  <br>  University of Washington
+  <br>  Cornell University and Cornell Tech
+  <br>  Princeton University
+  <br>  University of Michigan 
+  <br>  University of Texas at Austin
+  <br>  Columbia University"
+  year: 2025
+  movie: https://www.youtube.com/watch?v=HAEHUR7BTZU
+
+micro2024:
+  title: "AHA Tutorial"
+  month: November
+  venue: "MICRO 2024"
+  year: 2024
+  url: https://stanfordaha.github.io/aha_tutorial/
+
+sparse2024:
+  title: "Mapping Sparse Applications to Accelerated Computing Systems"
+  month: June
+  venue: "PLDI 2024: Sparse Workshop"
+  year: 2024
+  url: https://pldi24.sigplan.org/home/sparse-2024
+  movie: https://www.youtube.com/watch?v=rxlCJ_ewsc8&ab_channel=ACMSIGPLAN
+
+cmu:
+  title: "Mapping sparse applications to accelerated computing systems" 
+  month: April
+  year: 2024
+  venue: "Carnegie Mellon University (CMU) Systems Design and Implementation (SDI) Seminar"
+  url: https://www.pdl.cmu.edu/SDI/2024/041124.html
+
+utokyo:
+  title: "The Sparse Abstract Machine"
+  month: April
+  year: 2024
+  venue: "Stanford and U-Tokyo Workshop: Agile and low-cost HW design workshop for domain-specific computing era"  
+
+mit: 
+  title: "Architectural and compiler support for accelerating embedding operations on general purpose processors" 
+  month: February
+  year: 2024
+  venue: "Massachusetts Institute of Technology Computer Science and Artificial Intelligence Laboratory (MIT CSAIL)"  
+
+ucsb: 
+  title: "Beyond the Sparse Abstract Machine: Mapping sparse applications to accelerated computing systems" 
+  month: December
+  year: 2023
+  venue: "UC Santa Barbara Computer Science Department Colloquium"  
+
+ctsta: 
+  title: "The Sparse Abstract Machine"
+  month: June
+  year: 2023
+  venue: "PLDI 2023: Compilation Techniques for Sparse Tensor Algebra (CTSTA)"
+  url: https://pldi23.sigplan.org/home/ctsta-2023#program 
+
+nvidia: 
+  title: "Sparse Abstract Machine and Dataflow Hardware"
+  month: November
+  year: 2022
+  venue: "NVIDIA Tutorial on Sparse Tensor Algebra Compilation"
+
+uw-sampl:
+  title: "The Sparse Abstract Machine: Sparse Tensor Algebra as Dataflow Graphs"
+  month: October
+  year: 2022
+  venue: "University of Washington: SAMPL Lunch Talk"
+  url: https://sampl.cs.washington.edu/talks.html
+
+samsung: 
+  title: "The Sparse Abstract Machine: Sparse Tensor Algebra as Dataflow Graphs"
+  month: September
+  year: 2022
+  venue: "Samsung Semiconductor System Architecture Lab (SAL)"
+  
+aha:
+  title: "The Sparse Abstract Machine: Sparse Tensor Algebra as Dataflow Graphs"
+  month: August
+  year: 2022
+  venue: "AHA Agile Hardware Project Retreat"
+  url: https://aha.stanford.edu/affiliates/aha-retreat-august-2022
+
+google-brain:
+  title: "Compilation of Sparse Array Programming Models"
+  month: April
+  year: 2022
+  venue: "Google Brain: ML compilation seminar"
+
+ucsc-lsd:
+  title: "Compilation of Sparse Array Programming Models"
+  month: April
+  year: 2022
+  venue: "University of California, Santa Cruz: LSD Seminar"
+  url: https://lsd.ucsc.edu/lsd-seminar/2022sp/#april-1
+
