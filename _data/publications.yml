@@ -286,9 +286,6 @@ asplos2023:
     <br>    location = {Vancouver, BC, Canada},
     <br>    series = {ASPLOS 2023}
     }"
-  movie: https://www.youtube.com/watch?v=zCzZKWheizE
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/zCzZKWheizE?si=yE869mNtf5SHBWLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 
 asplos2023-apex:
