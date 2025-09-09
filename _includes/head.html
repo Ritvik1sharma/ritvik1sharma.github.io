@@ -2,30 +2,43 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%}
-  <!--
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-  {%- include google-analytics.html -%}
-  {%- endif -%}
-  -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  {%- comment -%}
+    SEO + OpenGraph/Twitter + canonical via jekyll-seo-tag
+    (uses values from _config.yml and page front matter)
+  {%- endcomment -%}
+  {% seo %}
+
+  {%- comment -%} Minima theme CSS {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  {%- comment -%} RSS/Atom feed from jekyll-feed {%- endcomment -%}
+  {% feed_meta %}
+
+  {%- comment -%} Favicons / PWA {%- endcomment -%}
+  <link rel="mask-icon" href="/mask-icon.svg" color="#000000">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/rs-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/rs-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/rs-icon.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+
+  {%- comment -%} Google Analytics (GA4) {%- endcomment -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-283MCFHKY7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-283MCFHKY7');
   </script>
+
+  {%- comment -%} Inline CSS for scrollable News section {%- endcomment -%}
   <style>
     .news-container {
-      max-height: 100px;
+      max-height: 100px;   /* adjust as needed */
       overflow-y: auto;
       border: 1px solid #ddd;
       padding: 0.5em;
       background: #fafafa;
     }
-    </style>
+  </style>
 </head>
