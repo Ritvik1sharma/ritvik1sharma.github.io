@@ -1,6 +1,6 @@
-hsu:
-  name: Olivia Hsu
-  site: https://cs.stanford.edu/~owhsu
+sharma:
+  name: Ritvik Sharma
+  site: https://ritviksharma.github.io/
 
 #A
 adamopoulos:
@@ -12,6 +12,10 @@ adivarahan:
 amarasinghe:
   name: Saman Amarasinghe
   site: http://people.csail.mit.edu/saman/
+
+achour:
+  name: Sara Achour
+  site: https://profiles.stanford.edu/sara-achour?releaseVersion=11.5.1
 
 #B
 balasingam:
@@ -29,6 +33,13 @@ buchbinder:
   name: Sidney Buchbinder
   site: https://www.linkedin.com/in/sidney-buchbinder-39682241/
 
+barrett:
+  name: Clark Barrett
+
+bhowmik:
+  name: Debanjan Bhowmik
+  site: https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/
+
 #C
 carsello:
   name: Alex Carsello
@@ -43,11 +54,25 @@ chou:
   name: Stephen Chou
   site: http://people.csail.mit.edu/s3chou
 
+cauwnberghs:
+  name: Gert Cauweberghs
+  site: https://jacobsschool.ucsd.edu/node/3271
+
 #D
 desai:
   name: Varun Desai
   site: https://www.linkedin.com/in/vdesais/
 
+dangwal:
+  name: Siddharth Dangwal
+  site: https://scholar.google.com/citations?hl=en&user=WEQhcj0AAAAJ
+
+daly:
+  name: Ross Daly
+
+donovick:
+  name: Caleb Donovick
+ 
 #E
 emer:
   name: Joel Emer
@@ -57,8 +82,17 @@ ejjeh:
   name: Adel Ejjeh
   site: https://www.linkedin.com/in/adel-ejjeh
 #F
+
+feng:
+  name: Kathleen Feng
+
+
 #G
 #H
+ha:
+  name: Sohmyung Ha
+  site: https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/sohmyung-ha.html
+
 hanrahan:
   name: Pat Hanrahan
 
@@ -72,8 +106,22 @@ hellsten:
 horowitz:
   name: Mark Horowitz
   site: http://www-vlsi.stanford.edu/~horowitz/
+
+hsu:
+  name: Olivia Hsu
+  site: https://weiya711.github.io/
+
 #I
 #J
+
+joshi:
+  name: Siddharth Joshi
+  site: https://engineering.nd.edu/faculty/siddharth-joshi/
+
+jha:
+  name: Niraj Jha
+  site: https://ece.princeton.edu/people/niraj-jha
+
 #K
 ke:
   name: Jake Ke
@@ -92,6 +140,14 @@ kong:
 koul:
   name: Kalhan Koul
 
+kubendran:
+  name: Raj Kubendran
+  site: https://www.engineering.pitt.edu/people/faculty/rajkumar-kubendran/
+
+kim:
+  name: Chul Kim
+  site: https://pure.kaist.ac.kr/en/persons/chul-kim
+
 #L
 lacouture:
   name: Rubens Lacouture
@@ -106,6 +162,9 @@ liangweixin:
 
 liu:
   name: Qiaoyi Liu
+
+li:
+  name: Chia-Hao Li
 
 #M
 madhvapathy:
@@ -131,6 +190,12 @@ olukotun:
   site: http://arsenalfc.stanford.edu/kunle/
 
 #P
+
+park:
+  name: Jongkil Park
+  site: https://scholar.google.com/citations?user=Kv9duOIAAAAJ&hl=en
+
+
 #Q
 #R
 raina:
@@ -153,9 +218,13 @@ rucker:
   site: https://www.linkedin.com/in/acrucker/
 
 #S
-sharma:
-  name: Ritvik Sharma
-  site: https://www.linkedin.com/in/ritvik-sharma-863090144/?originalSubdomain=in
+
+sharda:
+  name: Janak Sharda
+
+
+
+
 
 steuwer:
   name: Michel Steuwer
@@ -184,6 +253,10 @@ tudor:
 tumushabe:
   name: Gloria Tumushabe
   site: https://www.linkedin.com/in/gloria-tumushabe/
+
+tuli:
+  name: Shikhar Tuli
+  site: https://stuli.me/
 
 #U
 #V

@@ -1,0 +1,16 @@
+current directory: /mnt/c/Users/ritvi/Documents/ritviksharma.github.io-master/ritviksharma.github.io-master/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250908-2570-au9ojf.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/ritvi/Documents/ritviksharma.github.io-master/ritviksharma.github.io-master/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /mnt/c/Users/ritvi/Documents/ritviksharma.github.io-master/ritviksharma.github.io-master/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /mnt/c/Users/ritvi/Documents/ritviksharma.github.io-master/ritviksharma.github.io-master/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250908-2570-30j3hb

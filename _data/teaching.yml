@@ -1,40 +1,14 @@
-cs143sp2324:
-  title: "CS 143: Compilers"
-  url: "https://cs143.stanford.edu"
-  role: "Course Assistant (CA)"
-  month: "Spring"
-  year: "2023-2024"
-  venue: "Stanford University"
-
-cs149fa21:
-  title: "CS 149: Parallel Computing"
-  url: "https://cs149.stanford.edu/fall21"
-  role: "Course Assistant (CA)"
-  month: "Autumn"
-  year: "2021"
-  venue: "Stanford University"
-
-afrofemcoders:
-  title: "Afro Fem Coders: Intro to Python"
-  url: "https://afrofemcoders.org/"
-  role: "Student Instructor and Advisor"
-  month: "Oct"
+ee205_1:
+  title: "EE 205: Signals and Systems" 
+  venue: "Indian Institute of Technology (IIT), Delhi"
+  role: "Teaching Assistant (TA)"
   year: "2020-2021"
-  venue: "Afro Fem Coders"
+  month: "Spring"
 
-hope:
-  title: "Decal EE 198: Hands-on PCB Engineering"
-  url: "https://ieee.berkeley.edu/hope/"
-  role: "Student Instructor"
+ee205_2:
+  title: "EE 205: Signals and Systems" 
+  venue: "Indian Institute of Technology (IIT), Delhi"
+  role: "Teaching Assistant (TA)"
+  year: "2020-2021"
   month: "Fall"
-  year: "2018"
-  venue: "University of California, Berkeley"
-
-ee16a:
-  title: "EECS 16A: Designing Information Devices and Systems" 
-  venue: "University of California, Berkeley"
-  role: "Head Undergraduate Student Instructor (UGSI)"
-  year: "2016-2017"
-  month: "Fall"
-  url: "https://inst.eecs.berkeley.edu/~ee16a/fa17"
 

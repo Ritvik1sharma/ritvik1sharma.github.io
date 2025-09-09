@@ -1,22 +1,22 @@
 ---
-title: Olivia Hsu
+title: Ritvik Sharma
 layout: home
 ---
 
 <table border="0" cellpadding="0">
 <td valign="top" style="min-width:140px;">
-<img src="/assets/owhsu.jpg" width="160">
+<img src="/assets/ritviksharma.jpg" width="160">
 </td>
 <td valign="top">
 PhD Student<br/>
-Department of Computer Science<br/>
+Department of Electrical Engineering<br/>
 Stanford University<br/>
-Office: 494 Gates<br/>
-<a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
-<a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
+Office: 472E Computing and Data Science (CoDa)<br/>
+<a href="mailto:rsharma3@stanford.edu">rsharma3 [at] stanford [dot] edu</a><br/>
+<a href="/assets/ritviksharma.pdf">Curriculum Vitae</a>
 <div id=siteUpdate> </div>
 <script>
-const desiredRepo = "weiya711.github.io"
+const desiredRepo = "ritvik1sharma.github.io"
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
@@ -37,29 +37,45 @@ xhttp.onreadystatechange = function() {
     });
   }
 };
-xhttp.open("GET", "https://api.github.com/users/weiya711/repos", true);
+xhttp.open("GET", "https://api.github.com/users/ritvik1sharma/repos", true);
 xhttp.send();
 </script>
 </td>
 </table>
 
 
-I am a computer science PhD student at Stanford University advised by Professor 
-[Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
-and Professor [Fredrik Kjolstad](http://fredrikbk.com). 
-I currently work on mapping and compiling sparse applications to domain-specific
-hardware, architectures, and accelerators. My research interests also broadly include
-computer 
-architecture, computer and programming systems, compilers, 
-programming models and languages, and digital circuits/VLSI.
+I am a PhD student in Electrical Engineering at Stanford University advised by Professor 
+[Sara Achour](https://profiles.stanford.edu/sara-achour?releaseVersion=11.5.1) 
+and Professor [Mark Horowitz](https://profiles.stanford.edu/mark-horowitz). 
+I currently work on compilers and simulators quantum computers and
+sparse tensor algebra. My research interests broadly include
+compiler systems, computer architecture and hardware modeling.
 
-I graduated from the University of California, Berkeley in 2019 with a degree
-in Electrical Engineering and Computer Science (EECS).  At Berkeley, I was
-fortunate enough to be advised by Professor [Vladimir
-Stojanovic](https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html) and
-work with [Panagiotis
-Zarkos](https://www.linkedin.com/in/panagiotis-zarkos-0a51a7ba/) on novel
-applications of silicon-photonics.  
+I graduated from the Indian Institute of Technology (IIT), Delhi 2021 with a degree
+in Electrical Engineering.  At IIT Delhi, I was
+fortunate to be advised by Professor [Debanjan Bhowmik](https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/) and worked
+with Professor [Gert Cauwenberghs](https://jacobsschool.ucsd.edu/node/3271) at UCSD and [Niraj Jha](https://ece.princeton.edu/people/niraj-jha)
+at Princeton University on compute-in-memory hardware accelerators in Machine Learning.  
+
+## News
+
+<div class="news-container">
+  <ul style="list-style:none; padding-left:0; margin:0;">
+    {%- assign news_sorted = site.data.news | sort: "date" | reverse -%}
+    {%- for item in news_sorted limit: 6 -%}
+      <li style="margin-bottom:0.5em;">
+        <span style="white-space:nowrap;">
+          {{ item.date | date: "%b %Y" }} —
+        </span>
+        {%- if item.link -%}
+          <a href="{{ item.link }}">{{ item.title }}</a>
+        {%- else -%}
+          {{ item.title }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
 
 <h2 class="tableheading">Publications</h2>
 
@@ -73,7 +89,7 @@ applications of silicon-photonics.
           {%- if forloop.last == true and forloop.length > 1 %}
             and
           {%- endif %}
-          {%- if author == "hsu" %}
+          {%- if author == "sharma" %}
             <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
@@ -111,7 +127,7 @@ applications of silicon-photonics.
 {% endfor %}
 </table>
 
-<h2 class="tableheading">Talks</h2>
+<!-- <h2 class="tableheading">Talks</h2>
 <table border="0">
 {%- for talk_keyval in site.data.talks %}
   {%- assign talk= talk_keyval[1] -%}
@@ -133,7 +149,7 @@ applications of silicon-photonics.
   </td>
   </tr>
 {% endfor %}
-</table>
+</table> -->
 
 <h2 class="tableheading">Teaching</h2>
 <table border="0">
@@ -156,7 +172,7 @@ applications of silicon-photonics.
 [comment]: <> <h2 class="tableheading">Projects</h2>
 [comment]: <> Boop beep boop... Work in progress. Check again soon!
 
-<h2 class="tableheading">Press</h2>
+<!-- <h2 class="tableheading">Press</h2>
 
 <table border="0">
 {%- for press_keyval in site.data.press %}
@@ -167,4 +183,4 @@ applications of silicon-photonics.
   </td>
   </tr>
 {% endfor %}
-</table>
+</table> -->
