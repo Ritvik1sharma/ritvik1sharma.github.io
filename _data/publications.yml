@@ -1,69 +1,51 @@
-pldi2025:
-  title: "Optimizing Ancilla-Based Quantum Circuits with SPARE"
+micro2025:
+  title: "A Probabilistic Perspective on Tiling Sparse Tensor Algebra"
   abstract: "<p>
-    Many quantum algorithms instantiate and use ancillas, spare qubits that serve
-    as temporary storage in a quantum circuit. In particular, many recently
-    developed high-level and modular quantum programming languages (QPLs) use
-    ancilla qubits to implement various programming constructs. These are lowered
-    to circuits with nested/cascading compute-uncompute gate sequences that use
-    ancilla qubits to track internal state. We present SPARE, a rewrite-based
-    quantum circuit optimizer that restructures these compute-uncompute gate
-    sequences, leveraging the ancilla qubit state information to optimize the
-    circuit. In this work, we prove the correctness of SPARE’s rewrites and link
-    SPARE’s gate-level transforms to language-level program rewrites, which may
-    be performed on the input language. We evaluate SPARE on QPL-generated
-    quantum circuits against Unqomp and Spire, two optimizing compilers for
-    QPLs. SPARE achieves a reduction of up to 27.3% in qubit count, 56.7% in
-    2-qubit gates, 68.2% in 1-qubit gates and 73.9% in depth against Unqomp, and
-    up to 17.8% in qubits, 67.3% in 2-qubit gates, 61.4% in 1-qubit gates and
-    59.9% in depth against Spire. We also evaluate SPARE against the Quartz,
-    Feynman, and PyZX circuit optimizers: SPARE achieves up to a 70.0% reduction
-    in two-qubit gates, up to a 53.6% reduction in 1-qubit gates, and up to a
-    56.7% reduction in depth compared to the best result from all the gate-level
-    optimizers.
+    Sparse tensor algebra computations are often memory-bound due to irregular access
+    patterns and low arithmetic intensity. We present <b>D2T2</b> (Data-Driven Tensor
+    Tiling), a framework that optimizes static coordinate-space tiling schemes to
+    minimize memory traffic by identifying and leveraging relevant high-level statistics
+    from input operands. For a given tensor algebra computation, D2T2 collects statistics
+    from input tensors, builds a probability distribution-based model of the tensor
+    computation, and uses it to predict memory traffic for various tiling configurations.
+    It then searches over tile shape and size configurations to minimize total traffic.
+    We evaluate D2T2 against Tailors and DRT, two state-of-the-art tiling schemes for
+    sparse tensor algebra. D2T2 achieves, on average, a <b>2.54×</b> speedup over Tailors
+    and a <b>1.13×</b> lower memory bandwidth compared to DRT for sparse–sparse matrix
+    multiplication (SpMSpM). It further achieves <b>1.22–48.94×</b> lower bandwidth for
+    SpMSpM and up to <b>34.31×</b> lower bandwidth for tensor operations (TTM and MTTKRP)
+    than conservative static tiling schemes. Unlike prior tiling techniques, D2T2 is
+    deployable without specialized hardware support. On Opal, a 16 nm sparse tensor
+    algebra accelerator, D2T2-generated tiling configurations achieve <b>1.23–3.34×</b>
+    speedups compared to their original hand-tuned configurations.
     </p>"
-  venue: "Conference on Programming Language Design and Implementation (PLDI)"
+  venue: "IEEE/ACM International Symposium on Microarchitecture (MICRO)"
   year: 2025
-  month: June
-  pdf: /publications/pldi25-spare.pdf
+  month: November
+  pdf: /publications/micro25-d2t2.pdf
   authors:
     - sharma
+    - xue
+    - zhang
+    - lacouture
+    - kjolstad
     - achour
-  bibtex: "@article{10.1145/3729253,
-    <br>  author = {Sharma, Ritvik and Achour, Sara},
-    <br>  title = {Optimizing Ancilla-Based Quantum Circuits with SPARE},
+    - horowitz
+  bibtex: "@inproceedings{10.1145/3725843.3756095,
+    <br>  author = {Sharma, Ritvik and Xue, Zi Yu and Zhang, Nathan and Lacouture, Rubens and Kjolstad, Fredrik and Achour, Sara and Horowitz, Mark},
+    <br>  title = {A Probabilistic Perspective on Tiling Sparse Tensor Algebra},
     <br>  year = {2025},
-    <br>  issue_date = {June 2025},
+    <br>  isbn = {9798400715730},
     <br>  publisher = {Association for Computing Machinery},
     <br>  address = {New York, NY, USA},
-    <br>  volume = {9},
-    <br>  number = {PLDI},
-    <br>  url = {https://doi.org/10.1145/3729253},
-    <br>  doi = {10.1145/3729253},
-    <br>  abstract = {Many quantum algorithms instantiate and use ancillas, spare qubits
-    <br>  that serve as temporary storage in a quantum circuit. In particular, many
-    <br>  recently developed high-level and modular quantum programming languages (QPLs)
-    <br>  use ancilla qubits to implement various programming constructs. These are
-    <br>  lowered to circuits with nested/cascading compute-uncompute gate sequences that
-    <br>  use ancilla qubits to track internal state. We present SPARE, a rewrite-based
-    <br>  quantum circuit optimizer that restructures these compute-uncompute gate
-    <br>  sequences, leveraging the ancilla qubit state information to optimize the
-    <br>  circuit. In this work, we prove the correctness of SPARE’s rewrites and link
-    <br>  SPARE’s gate-level transforms to language-level program rewrites, which may be
-    <br>  performed on the input language. We evaluate SPARE on QPL-generated quantum
-    <br>  circuits against Unqomp and Spire, two optimizing compilers for QPLs. SPARE
-    <br>  achieves a reduction of up to 27.3% in qubit count, 56.7% in 2-qubit gates,
-    <br>  68.2% in 1-qubit gates and 73.9% in depth against Unqomp, and up to 17.8% in
-    <br>  qubits, 67.3% in 2-qubit gates, 61.4% in 1-qubit gates and 59.9% in depth
-    <br>  against Spire. We also evaluate SPARE against the Quartz, Feynman, and PyZX
-    <br>  circuit optimizers: SPARE achieves up to a 70.0% reduction in two-qubit gates,
-    <br>  up to a 53.6% reduction in 1-qubit gates, and up to a 56.7% reduction in depth
-    <br>  compared to the best result from all the gate-level optimizers.},
-    <br>  journal = {Proc. ACM Program. Lang.},
-    <br>  month = {jun},
-    <br>  articleno = {154},
-    <br>  numpages = {25},
-    <br>  keywords = {quantum optimizing compilers, quantum programming languages}
+    <br>  url = {https://doi.org/10.1145/3725843.3756095},
+    <br>  doi = {10.1145/3725843.3756095},
+    <br>  abstract = {Sparse tensor algebra computations are often memory-bound due to irregular access patterns and low arithmetic intensity. We present D2T2 (Data-Driven Tensor Tiling), a framework that optimizes static coordinate-space tiling schemes to minimize memory traffic by identifying and leveraging relevant high-level statistics from input operands. For a given tensor algebra computation, D2T2 collects statistics from input tensors, builds a probability distribution-based model of the tensor computation, and uses it to predict traffic for various tiling configurations. It searches over tile shape and size configurations to minimize total traffic. We evaluate D2T2 against Tailors and DRT, two state of the art tiling schemes for sparse tensor algebra. We find that D2T2 achieves, on average, a 2.54× speedup over Tailors and a 1.13× lower memory bandwidth compared to DRT for sparse-sparse matrix multiplication (SpMSpM). We also achieve 1.22–48.94× lower bandwidth for SpMSpM and up to 34.31× lower bandwidth for tensor operations (TTM and MTTKRP) than conservative static tiling schemes. Unlike prior tiling techniques, D2T2 is deployable without specialized hardware support. On Opal, a 16nm sparse tensor algebra accelerator, D2T2 generated tiling configurations that achieve 1.23–3.34× speedups compared to their original hand-tuned configurations.},
+    <br>  booktitle = {Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture},
+    <br>  pages = {795–808},
+    <br>  numpages = {14},
+    <br>  keywords = {Tensor Algebra, Sparse Computation, Hardware Acceleration, Tiling},
+    <br>  series = {MICRO '25}
     <br> }"
 
 pldi2024-dare:

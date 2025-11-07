@@ -1,37 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-
-  <!-- SEO meta -->
-  <meta name="description" content="Ritvik Sharma — PhD student at Stanford University, working on sparse tensor algebra, compilers, and quantum computing.">
-  <meta name="keywords" content="Ritvik Sharma, Stanford, sparse tensor algebra, compilers, quantum computing">
-  <meta name="author" content="Ritvik Sharma">
-
-  <!-- Open Graph for social sharing -->
-  <meta property="og:title" content="Ritvik Sharma — Research Website">
-  <meta property="og:description" content="PhD student at Stanford University. Research in sparse tensor algebra, compilers, and quantum computing.">
-  <meta property="og:url" content="https://ritvik1sharma.github.io/">
-  <meta property="og:image" content="https://ritvik1sharma.github.io/assets/ritviksharma.jpg">
-
-  <!-- <link rel="icon" href="/favicon/rs-icon.png"> -->
-  <link rel="mask-icon" href="mask-icon.svg" color="#000000">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/rs-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/rs-icon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/rs-icon.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
-
   <body>
-
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
-
     {%- include footer.html -%}
-
   </body>
 </html>

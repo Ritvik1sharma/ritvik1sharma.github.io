@@ -47,9 +47,13 @@ xhttp.send();
 I am a PhD student in Electrical Engineering at Stanford University advised by Professor 
 [Sara Achour](https://profiles.stanford.edu/sara-achour?releaseVersion=11.5.1) 
 and Professor [Mark Horowitz](https://profiles.stanford.edu/mark-horowitz). 
-I currently work on compilers and simulators quantum computers and
+I work on building compilers and simulators for quantum computers and
 sparse tensor algebra. My research interests broadly include
-compiler systems, computer architecture and hardware modeling.
+compilers, computer architecture and hardware modeling.
+
+During my PhD, I have interned at Google in the On-Device Machine Learning (ODML) team researching different KV-Cache Pruning techniques
+for Infinite Context Large Language Model (LLM) inference on edge devices with the LiteRT-LM framework in Summer 2025.
+Previously, I interned at IonQ in Summer 2021, as a Research Intern working on building efficient near-term Error-Correction implementation of Bacon-Shor Codes. 
 
 I graduated from the Indian Institute of Technology (IIT), Delhi 2021 with a degree
 in Electrical Engineering.  At IIT Delhi, I was
