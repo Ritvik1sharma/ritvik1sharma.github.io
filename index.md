@@ -94,7 +94,7 @@ at Princeton University on compute-in-memory hardware accelerators in Machine Le
           {% else %}
             {{ pub.title }}
           {% endif %}
-        </b>
+        </b><br/>
         <!-- <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/> -->
         {%- for author in pub.authors -%}
           {%- if forloop.last == true and forloop.length > 1 %}
