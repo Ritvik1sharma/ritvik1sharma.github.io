@@ -1,5 +1,6 @@
 micro2025:
   title: "A Probabilistic Perspective on Tiling Sparse Tensor Algebra"
+  url: "https://doi.org/10.1145/3725843.3756095"
   abstract: "<p>
     Sparse tensor algebra computations are often memory-bound due to irregular access
     patterns and low arithmetic intensity. We present <b>D2T2</b> (Data-Driven Tensor
@@ -48,8 +49,81 @@ micro2025:
     <br>  series = {MICRO '25}
     <br> }"
 
+
+pldi2025-spare:
+  title: "Optimizing Ancilla-Based Quantum Circuits with SPARE"
+  url: "https://doi.org/10.1145/3729253"
+  abstract: "<p>
+    Many quantum algorithms instantiate and use ancillas, spare qubits that serve
+    as temporary storage in a quantum circuit. In particular, many recently
+    developed high-level and modular quantum programming languages (QPLs) use
+    ancilla qubits to implement various programming constructs. These are lowered
+    to circuits with nested and cascading compute-uncompute gate sequences that
+    use ancilla qubits to track internal state. We present SPARE, a rewrite-based
+    quantum circuit optimizer that restructures these compute-uncompute gate
+    sequences by leveraging ancilla qubit state information to optimize the
+    circuit. We prove the correctness of SPARE’s rewrites and connect its
+    gate-level transformations to language-level program rewrites that may be
+    performed on the input program. We evaluate SPARE on QPL-generated quantum
+    circuits against Unqomp and Spire, two optimizing compilers for QPLs. SPARE
+    achieves reductions of up to 27.3% in qubit count, 56.7% in 2-qubit gates,
+    68.2% in 1-qubit gates, and 73.9% in depth against Unqomp, and up to 17.8%
+    in qubits, 67.3% in 2-qubit gates, 61.4% in 1-qubit gates, and 59.9% in
+    depth against Spire. We also evaluate SPARE against Quartz, Feynman, and
+    PyZX circuit optimizers, and find that SPARE achieves up to a 70.0%
+    reduction in two-qubit gates, up to a 53.6% reduction in 1-qubit gates, and
+    up to a 56.7% reduction in depth compared to the best result from all of the
+    gate-level optimizers.
+    </p>"
+  venue: "Conference on Programming Language Design and Implementation (PLDI)"
+  year: 2025
+  month: June
+  pdf: /publications/pldi25-spare.pdf
+  authors:
+    - sharma
+    - achour
+  bibtex: "@article{10.1145/3729253,
+    <br>  author = {Sharma, Ritvik and Achour, Sara},
+    <br>  title = {Optimizing Ancilla-Based Quantum Circuits with SPARE},
+    <br>  year = {2025},
+    <br>  issue_date = {June 2025},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  volume = {9},
+    <br>  number = {PLDI},
+    <br>  url = {https://doi.org/10.1145/3729253},
+    <br>  doi = {10.1145/3729253},
+    <br>  abstract = {Many quantum algorithms instantiate and use ancillas, spare
+    <br>  qubits that serve as temporary storage in a quantum circuit. In particular,
+    <br>  many recently developed high-level and modular quantum programming
+    <br>  languages (QPLs) use ancilla qubits to implement various programming
+    <br>  constructs. These are lowered to circuits with nested/cascading
+    <br>  compute-uncompute gate sequences that use ancilla qubits to track internal
+    <br>  state. We present SPARE, a rewrite-based quantum circuit optimizer that
+    <br>  restructures these compute-uncompute gate sequences, leveraging the ancilla
+    <br>  qubit state information to optimize the circuit. In this work, we prove the
+    <br>  correctness of SPARE’s rewrites and link SPARE’s gate-level transforms to
+    <br>  language-level program rewrites, which may be performed on the input
+    <br>  language. We evaluate SPARE on QPL-generated quantum circuits against
+    <br>  Unqomp and Spire, two optimizing compilers for QPLs. SPARE achieves a
+    <br>  reduction of up to 27.3\\% in qubit count, 56.7\\% in 2-qubit gates,
+    <br>  68.2\\% in 1-qubit gates and 73.9\\% in depth against Unqomp, and up to
+    <br>  17.8\\% in qubits, 67.3\\% in 2-qubit gates, 61.4\\% in 1-qubit gates and
+    <br>  59.9\\% in depth against Spire. We also evaluate SPARE against the Quartz,
+    <br>  Feynman, and PyZX circuit optimizers: SPARE achieves up to a 70.0\\%
+    <br>  reduction in two-qubit gates, up to a 53.6\\% reduction in 1-qubit gates,
+    <br>  and up to a 56.7\\% reduction in depth compared to the best result from all
+    <br>  the gate-level optimizers.},
+    <br>  journal = {Proc. ACM Program. Lang.},
+    <br>  month = {jun},
+    <br>  articleno = {154},
+    <br>  pages = {176--200},
+    <br>  numpages = {25}
+    <br> }"
+
 pldi2024-dare:
   title: "Compilation of Qubit Circuits to Optimized Qutrit Circuits"
+  url: "https://doi.org/10.1145/3656388"
   abstract: "<p>
     Quantum computers are a revolutionary class of computational platforms that
     are capable of solving computationally hard problems. However, today’s quantum
@@ -209,6 +283,7 @@ vlsi2024:
 
 asplos2023: 
   title: The Sparse Abstract Machine
+  url: "https://doi.org/10.1145/3582016.3582051"
   abstract: "<p>
     We propose the Sparse Abstract Machine (SAM), an abstract machine model for
     targeting sparse tensor algebra to reconfigurable and fixed-function spatial
@@ -272,6 +347,7 @@ asplos2023:
 
 asplos2023-apex:
   title: "APEX: A Framework for Automated Processing Element Design Space Exploration using Frequent Subgraph Analysis"
+  url: "https://doi.org/10.1145/3582016.3582070"
   abstract: "<p>
     The architecture of a coarse-grained reconfigurable array (CGRA) processing
     element (PE) has a significant effect on the performance and energy-efficiency
@@ -359,6 +435,7 @@ asplos2023-apex:
 
 tecs2023-codebench:
   title: "CODEBench: A Neural Architecture and Hardware Accelerator Co-Design Framework"
+  url: "https://doi.org/10.1145/3575798"
   abstract: "<p>
     Recently, automated co-design of machine learning (ML) models and accelerator
     architectures has attracted significant attention from both the industry and
@@ -440,6 +517,7 @@ tecs2023-codebench:
 
 iscas2021-crossbar:
   title: "A Crossbar Array of Analog-Digital-Hybrid Volatile Memory Synapse Cells for Energy-Efficient On-Chip Learning"
+  url: "https://ieeexplore.ieee.org/document/9401530"
   abstract: "<p>
     This work presents a crossbar array of analog-digital-hybrid volatile memory
     synapse cells designed for energy-efficient on-chip learning. The proposed
@@ -471,6 +549,7 @@ iscas2021-crossbar:
 
 iscas2020-adc:
   title: "A 4.2-pJ/Conv 10-b Asynchronous ADC with Hybrid Two-Tier Level-Crossing Event Coding"
+  url: "https://ieeexplore.ieee.org/document/9180458"
   abstract: "<p>
     This paper presents a 10-bit asynchronous analog-to-digital converter (ADC)
     that achieves 4.2 pJ per conversion through a hybrid two-tier level-crossing

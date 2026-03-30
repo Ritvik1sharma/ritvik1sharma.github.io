@@ -88,7 +88,14 @@ at Princeton University on compute-in-memory hardware accelerators in Machine Le
     <tr>
       {%- assign pub = pub_keyval[1] -%}
       <td>
-        <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+        <b>
+          {% if pub.url %}
+            <a href="{{ pub.url }}" style="color: #464646" target="_blank">{{ pub.title }}</a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+        </b>
+        <!-- <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/> -->
         {%- for author in pub.authors -%}
           {%- if forloop.last == true and forloop.length > 1 %}
             and
