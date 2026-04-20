@@ -47,19 +47,19 @@ xhttp.send();
 I am a PhD student in Electrical Engineering at Stanford University advised by Professor 
 [Sara Achour](https://profiles.stanford.edu/sara-achour?releaseVersion=11.5.1) 
 and Professor [Mark Horowitz](https://profiles.stanford.edu/mark-horowitz). 
-I work on building compilers and simulators for quantum computers and
+I work on building compilation tools for quantum computers and
 sparse tensor algebra. My research interests broadly include
 compilers, computer architecture and hardware modeling.
 
 During my PhD, I have interned at Google in the On-Device Machine Learning (ODML) team researching different KV-Cache Pruning techniques
-for Infinite Context Large Language Model (LLM) inference on edge devices with the LiteRT-LM framework in Summer 2025.
-Previously, I interned at IonQ in Summer 2021, as a Research Intern working on building efficient near-term Error-Correction implementation of Bacon-Shor Codes. 
+for Infinite Context Large Language Model (LLM) inference on edge devices with LiteRT-LM.
+Previously, I interned at IonQ in Summer 2021, as a Research Intern building efficient near-term Error-Correction implementations for Bacon-Shor codes. 
 
 I graduated from the Indian Institute of Technology (IIT), Delhi 2021 with a degree
 in Electrical Engineering.  At IIT Delhi, I was
 fortunate to be advised by Professor [Debanjan Bhowmik](https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/) and worked
 with Professor [Gert Cauwenberghs](https://jacobsschool.ucsd.edu/node/3271) at UCSD and [Niraj Jha](https://ece.princeton.edu/people/niraj-jha)
-at Princeton University on compute-in-memory hardware accelerators in Machine Learning.  
+at Princeton University on compute-in-memory hardware accelerators.  
 
 ## News
 
