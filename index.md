@@ -51,8 +51,7 @@ I work on building compilation tools for quantum computers and
 sparse tensor algebra. My research interests broadly include
 compilers, computer architecture and hardware modeling.
 
-During my PhD, I have interned at Google in the On-Device Machine Learning (ODML) team researching different KV-Cache Pruning techniques
-for Infinite Context Large Language Model (LLM) inference on edge devices with LiteRT-LM.
+During my PhD, I have interned at Google in the ODML team on researching different KV-Cache Pruning techniques for Infinite Context Large Language Model inference on edge devices with LiteRT-LM.
 Previously, I interned at IonQ in Summer 2021, as a Research Intern building efficient near-term Error-Correction implementations for Bacon-Shor codes. 
 
 I graduated from the Indian Institute of Technology (IIT), Delhi 2021 with a degree
