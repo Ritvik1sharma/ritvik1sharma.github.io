@@ -65,7 +65,7 @@ at Princeton University on compute-in-memory hardware accelerators.
 <div class="news-container">
   <ul style="list-style:none; padding-left:0; margin:0;">
     {%- assign news_sorted = site.data.news | sort: "date" | reverse -%}
-    {%- for item in news_sorted limit: 6 -%}
+    {%- for item in news_sorted limit: 12 -%}
       <li style="margin-bottom:0.5em;">
         <span style="white-space:nowrap;">
           {{ item.date | date: "%b %Y" }} —
