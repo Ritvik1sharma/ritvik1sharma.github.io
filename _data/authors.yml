@@ -54,8 +54,8 @@ chou:
   name: Stephen Chou
   site: http://people.csail.mit.edu/s3chou
 
-cauwnberghs:
-  name: Gert Cauweberghs
+cauwenberghs:
+  name: Gert Cauwenberghs
   site: https://jacobsschool.ucsd.edu/node/3271
 
 #D
@@ -226,6 +226,10 @@ rucker:
 sharda:
   name: Janak Sharda
 
+
+siracusa:
+  name: Marco Siracusa
+  site: https://scholar.google.com/citations?hl=en&user=Kp7jC4oAAAAJ
 
 
 

@@ -62,6 +62,56 @@ pldi2026-cotenn:
     <br> }"
 
 
+asplos2026-fuseflow:
+  title: "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow"
+  url: "https://doi.org/10.1145/3779212.3790165"
+  abstract: "<p>
+    As deep learning models scale, sparse deep learning (DL) models that exploit
+    sparsity in weights, activations, or inputs and specialized dataflow hardware
+    have emerged as powerful solutions to address efficiency. We propose
+    <b>FuseFlow</b>, a compiler that converts sparse machine learning models written
+    in PyTorch to fused sparse dataflow graphs for reconfigurable dataflow
+    architectures (RDAs). FuseFlow is the first compiler to support general
+    cross-expression fusion of sparse operations. In addition to fusion across
+    kernels (expressions), FuseFlow also supports optimizations like parallelization,
+    dataflow ordering, and sparsity blocking. It targets a cycle-accurate dataflow
+    simulator for microarchitectural analysis of fusion strategies. We use FuseFlow
+    for design-space exploration across four real-world machine learning applications
+    with sparsity, showing that full fusion (entire cross-expression fusion across all
+    computation in an end-to-end model) is not always optimal for sparse models—fusion
+    granularity depends on the model itself. FuseFlow also provides a heuristic to
+    identify and prune suboptimal configurations. Using FuseFlow, we achieve
+    performance improvements, including a <b>~2.7×</b> speedup over an unfused
+    baseline for GPT-3 with BigBird block-sparse attention.
+    </p>"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  volume: 2
+  year: 2026
+  month: March
+  authors:
+    - lacouture
+    - nathanzhang
+    - sharma
+    - siracusa
+    - kjolstad
+    - olukotun
+    - hsu
+  bibtex: "@inproceedings{10.1145/3779212.3790165,
+    <br>  author = {Lacouture, Rubens and Zhang, Nathan and Sharma, Ritvik and Siracusa, Marco and Kjolstad, Fredrik and Olukotun, Kunle and Hsu, Olivia},
+    <br>  title = {FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow},
+    <br>  year = {2026},
+    <br>  isbn = {9798400723599},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  url = {https://doi.org/10.1145/3779212.3790165},
+    <br>  doi = {10.1145/3779212.3790165},
+    <br>  booktitle = {Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
+    <br>  numpages = {23},
+    <br>  keywords = {sparse machine learning, Einsum, tensor compiler, kernel fusion, spatial dataflow accelerator},
+    <br>  series = {ASPLOS '26}
+    <br> }"
+
+
 micro2025:
   title: "A Probabilistic Perspective on Tiling Sparse Tensor Algebra"
   url: "https://doi.org/10.1145/3725843.3756095"
