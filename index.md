@@ -44,20 +44,20 @@ xhttp.send();
 </table>
 
 
-I am a PhD student in Electrical Engineering at Stanford University advised by Professor 
+I am a PhD student in Electrical Engineering at Stanford University, advised by Professor 
 [Sara Achour](https://profiles.stanford.edu/sara-achour?releaseVersion=11.5.1) 
 and Professor [Mark Horowitz](https://profiles.stanford.edu/mark-horowitz). 
-I work on building compilation tools for quantum computers and
-sparse tensor algebra. My research interests broadly include
+I build domain-specific compilers for quantum computing, quantum simulation and
+sparse tensor algebra. My interests more broadly span
 compilers, computer architecture and hardware modeling.
 
-During my PhD, I have interned at Google in Summer 2025 and 2026. In Summer'26, I developed a scheduling language and an agentic auto-scheduling framework for the Darwinn Edge-TPU compiler. In Sumer'25, I interned in the ODML team on different KV-Cache Pruning techniques for Infinite Context Large Language Model inference on edge devices with LiteRT-LM.
-Previously, I have interned at IonQ in Summer 2021, as a Research Intern building efficient near-term Error-Correction implementations for Bacon-Shor codes. 
+During my PhD, I have interned twice at Google. In Summer 2026, I developed a scheduling language and an agent-based auto-scheduling framework for the Darwinn Edge-TPU compiler. In Summer 2025, I worked with the ODML team on KV-cache pruning techniques for infinite-context large language model inference on edge devices, in LiteRT-LM.
+Earlier, in Summer 2022, I was a research intern at IonQ, building efficient near-term error-correction implementations for Bacon-Shor codes. 
 
-I graduated from the Indian Institute of Technology (IIT), Delhi 2021 with a degree
+I graduated from the Indian Institute of Technology (IIT) Delhi in 2021 with a degree
 in Electrical Engineering.  At IIT Delhi, I was
 fortunate to be advised by Professor [Debanjan Bhowmik](https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/) and worked
-with Professor [Gert Cauwenberghs](https://jacobsschool.ucsd.edu/node/3271) at UCSD and [Niraj Jha](https://ece.princeton.edu/people/niraj-jha)
+with Professor [Gert Cauwenberghs](https://jacobsschool.ucsd.edu/node/3271) at UCSD and Professor [Niraj Jha](https://ece.princeton.edu/people/niraj-jha)
 at Princeton University on compute-in-memory hardware accelerators.  
 
 ## News
